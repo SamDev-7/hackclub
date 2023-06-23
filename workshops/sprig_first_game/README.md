@@ -39,8 +39,8 @@ const player = "p";
 <details>
 <summary>JavaScript tip: Variables store information that can be access later.</summary>
 
-There are two main types of variables, `const` and `let`. `const` variables cannot be changed, while `let` variables can be changed. Visit this [MDN page](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables) to learn more about variables.
-
+Think of variables as named boxes that you can put stuff into and take stuff out of. There are two main types of variables, `const` and `let`. `const` variables cannot be changed, while `let` variables can be changed. In our case, the play is always defined as the string `"p"`, so we use `const`.  
+Visit this [MDN page](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables) to learn more about variables.
 </details>
 
 We can then set the image we want to use for our player, like so:
@@ -161,6 +161,14 @@ let level = 0;
 
 const levels = [map`.`];
 ```
+
+<details>
+<summary>JavaScript tip: Arrays store a list of items.</summary>
+
+We can use Arrays to store many items in using a single variable. With multiple levels as an example, instead of making `level1`, `level2`, etc. variables to store each map, we can condense all of these into a single `levels` variable. JavaScript arrays can also change the amount of items they store, you cannot create more variables on the fly. For example, arrays are useful when storing the amount of items on a to-do list, which can change.  
+Visit this [MDN page](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays) to learn more about variables.
+
+</details>
 
 Right now we only have one level, so let's do something with it! Click on `map` to open up the map editor. **Make sure you hit run** to load the legend before editing the map.
 
