@@ -36,6 +36,13 @@ To start, let's assign a single character to a variable.
 const player = "p";
 ```
 
+<details>
+<summary>JavaScript tip: Variables store information that can be access later.</summary>
+
+There are two main types of variables, `const` and `let`. `const` variables cannot be changed, while `let` variables can be changed. Visit this [MDN page](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables) to learn more about variables.
+
+</details>
+
 We can then set the image we want to use for our player, like so:
 
 ```js
